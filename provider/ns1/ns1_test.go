@@ -29,9 +29,9 @@ import (
 	api "gopkg.in/ns1/ns1-go.v2/rest"
 	"gopkg.in/ns1/ns1-go.v2/rest/model/dns"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
-	"sigs.k8s.io/external-dns/provider"
+	"github.com/redpanda-data/external-dns/endpoint"
+	"github.com/redpanda-data/external-dns/plan"
+	"github.com/redpanda-data/external-dns/provider"
 )
 
 type MockNS1DomainClient struct {

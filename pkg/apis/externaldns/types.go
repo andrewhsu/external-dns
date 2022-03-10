@@ -22,12 +22,12 @@ import (
 	"strconv"
 	"time"
 
-	"sigs.k8s.io/external-dns/endpoint"
+	"github.com/redpanda-data/external-dns/endpoint"
 
 	"github.com/alecthomas/kingpin"
 	"github.com/sirupsen/logrus"
 
-	"sigs.k8s.io/external-dns/source"
+	"github.com/redpanda-data/external-dns/source"
 )
 
 const (

@@ -25,9 +25,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	udnssdk "github.com/ultradns/ultradns-sdk-go"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
-	"sigs.k8s.io/external-dns/provider"
+	"github.com/redpanda-data/external-dns/endpoint"
+	"github.com/redpanda-data/external-dns/plan"
+	"github.com/redpanda-data/external-dns/provider"
 )
 
 const (

@@ -24,8 +24,8 @@ import (
 	"github.com/nesv/go-dynect/dynect"
 	"github.com/stretchr/testify/assert"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/provider"
+	"github.com/redpanda-data/external-dns/endpoint"
+	"github.com/redpanda-data/external-dns/provider"
 )
 
 func TestDynMerge_NoUpdateOnTTL0Changes(t *testing.T) {

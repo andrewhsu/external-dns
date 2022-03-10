@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/internal/testutils"
-	"sigs.k8s.io/external-dns/plan"
-	"sigs.k8s.io/external-dns/provider"
-	"sigs.k8s.io/external-dns/registry"
+	"github.com/redpanda-data/external-dns/endpoint"
+	"github.com/redpanda-data/external-dns/internal/testutils"
+	"github.com/redpanda-data/external-dns/plan"
+	"github.com/redpanda-data/external-dns/provider"
+	"github.com/redpanda-data/external-dns/registry"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

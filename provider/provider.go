@@ -21,8 +21,8 @@ import (
 	"net"
 	"strings"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
+	"github.com/redpanda-data/external-dns/endpoint"
+	"github.com/redpanda-data/external-dns/plan"
 )
 
 // Provider defines the interface DNS providers should implement.

@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"sigs.k8s.io/external-dns/endpoint"
+	"github.com/redpanda-data/external-dns/endpoint"
 )
 
 // test helper functions

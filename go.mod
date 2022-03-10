@@ -1,4 +1,4 @@
-module sigs.k8s.io/external-dns
+module github.com/redpanda-data/external-dns
 
 go 1.15
 

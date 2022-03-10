@@ -29,7 +29,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
-	"sigs.k8s.io/external-dns/endpoint"
+	"github.com/redpanda-data/external-dns/endpoint"
 )
 
 // This is a compile-time validation that httpProxySource is a Source.

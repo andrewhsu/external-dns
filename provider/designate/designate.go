@@ -32,10 +32,10 @@ import (
 	"github.com/gophercloud/gophercloud/pagination"
 	log "github.com/sirupsen/logrus"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/pkg/tlsutils"
-	"sigs.k8s.io/external-dns/plan"
-	"sigs.k8s.io/external-dns/provider"
+	"github.com/redpanda-data/external-dns/endpoint"
+	"github.com/redpanda-data/external-dns/pkg/tlsutils"
+	"github.com/redpanda-data/external-dns/plan"
+	"github.com/redpanda-data/external-dns/provider"
 )
 
 const (

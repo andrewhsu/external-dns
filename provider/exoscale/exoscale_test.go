@@ -24,8 +24,8 @@ import (
 	"github.com/exoscale/egoscale"
 	"github.com/stretchr/testify/assert"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
+	"github.com/redpanda-data/external-dns/endpoint"
+	"github.com/redpanda-data/external-dns/plan"
 )
 
 type createRecordExoscale struct {

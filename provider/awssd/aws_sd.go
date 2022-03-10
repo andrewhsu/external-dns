@@ -34,10 +34,10 @@ import (
 	"github.com/linki/instrumented_http"
 	log "github.com/sirupsen/logrus"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/pkg/apis/externaldns"
-	"sigs.k8s.io/external-dns/plan"
-	"sigs.k8s.io/external-dns/provider"
+	"github.com/redpanda-data/external-dns/endpoint"
+	"github.com/redpanda-data/external-dns/pkg/apis/externaldns"
+	"github.com/redpanda-data/external-dns/plan"
+	"github.com/redpanda-data/external-dns/provider"
 )
 
 const (

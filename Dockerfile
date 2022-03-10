@@ -17,7 +17,7 @@ ARG ARCH
 FROM golang:1.15 as builder
 ARG ARCH
 
-WORKDIR /sigs.k8s.io/external-dns
+WORKDIR /github.com/redpanda-data/external-dns
 
 COPY . .
 RUN make test && make build.$ARCH
@@ -26,7 +26,7 @@ RUN make test && make build.$ARCH
 FROM $ARCH/alpine:3.12
 
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
-COPY --from=builder /sigs.k8s.io/external-dns/build/external-dns /bin/external-dns
+COPY --from=builder /github.com/redpanda-data/external-dns/build/external-dns /bin/external-dns
 
 # Run as UID for nobody since k8s pod securityContext runAsNonRoot can't resolve the user ID:
 # https://github.com/kubernetes/kubernetes/issues/40958
