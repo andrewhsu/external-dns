@@ -27,8 +27,8 @@ import (
 	"go.etcd.io/etcd/clientv3"
 	"go.etcd.io/etcd/mvcc/mvccpb"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
+	"github.com/andrewhsu/external-dns/endpoint"
+	"github.com/andrewhsu/external-dns/plan"
 )
 
 type fakeEtcdv3Client struct {

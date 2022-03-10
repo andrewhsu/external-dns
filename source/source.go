@@ -29,8 +29,8 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/util/wait"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/internal/config"
+	"github.com/andrewhsu/external-dns/endpoint"
+	"github.com/andrewhsu/external-dns/internal/config"
 )
 
 const (

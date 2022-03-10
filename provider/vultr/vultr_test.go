@@ -25,8 +25,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/vultr/govultr"
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
+	"github.com/andrewhsu/external-dns/endpoint"
+	"github.com/andrewhsu/external-dns/plan"
 )
 
 type mockVultrDomain struct {

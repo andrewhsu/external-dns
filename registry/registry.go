@@ -21,8 +21,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
+	"github.com/andrewhsu/external-dns/endpoint"
+	"github.com/andrewhsu/external-dns/plan"
 )
 
 // Registry is an interface which should enables ownership concept in external-dns

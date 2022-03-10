@@ -25,9 +25,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
-	"sigs.k8s.io/external-dns/provider"
+	"github.com/andrewhsu/external-dns/endpoint"
+	"github.com/andrewhsu/external-dns/plan"
+	"github.com/andrewhsu/external-dns/provider"
 )
 
 // TXTRegistry implements registry interface with ownership implemented via associated TXT records

@@ -26,9 +26,9 @@ import (
 	"github.com/ovh/go-ovh/ovh"
 	log "github.com/sirupsen/logrus"
 
-	"sigs.k8s.io/external-dns/endpoint"
-	"sigs.k8s.io/external-dns/plan"
-	"sigs.k8s.io/external-dns/provider"
+	"github.com/andrewhsu/external-dns/endpoint"
+	"github.com/andrewhsu/external-dns/plan"
+	"github.com/andrewhsu/external-dns/provider"
 
 	"go.uber.org/ratelimit"
 )
